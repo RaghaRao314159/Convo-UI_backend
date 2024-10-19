@@ -81,6 +81,5 @@ def chatWithBot():
         return 'Content-Type not supported!'
 
     
-    
 if __name__ == "__main__":
     app.run(debug=True)

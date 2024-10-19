@@ -21,7 +21,8 @@ def chatWithBot():
 
     # we need to authorise
     key = request.headers.get('Authorization')
-    
+
+    # initialise LLM with user's api key
     llm_client = openai.Client(api_key=key)
 
     if content_type == 'application/json':

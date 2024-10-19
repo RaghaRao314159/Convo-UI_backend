@@ -65,12 +65,12 @@ This will start the backend server in your terminal
 
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/RaghaRao314159/Convo-UI.svg?style=for-the-badge
-[contributors-url]: https://github.com/RaghaRao314159/Convo-UI/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/RaghaRao314159/Convo-UI.svg?style=for-the-badge
-[stars-url]: https://github.com/RaghaRao314159/Convo-UI/stargazers
-[issues-shield]: https://img.shields.io/github/issues/RaghaRao314159/Convo-UI.svg?style=for-the-badge
-[issues-url]: https://github.com/RaghaRao314159/Convo-UI/issues
+[contributors-shield]: https://img.shields.io/github/contributors/RaghaRao314159/Convo-UI_backend.svg?style=for-the-badge
+[contributors-url]: https://github.com/RaghaRao314159/Convo-UI_backend/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/RaghaRao314159/Convo-UI_backend.svg?style=for-the-badge
+[stars-url]: https://github.com/RaghaRao314159/Convo-UI_backend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/RaghaRao314159/Convo-UI_backend.svg?style=for-the-badge
+[issues-url]: https://github.com/RaghaRao314159/Convo-UI_backend/issues
 
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org

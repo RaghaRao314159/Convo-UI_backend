@@ -1,4 +1,4 @@
-from flask import Flask, request, Response
+from flask import Flask, request, Response, stream_with_context
 import openai
 from flask_cors import CORS
 import json
@@ -67,7 +67,14 @@ def chatWithBot():
                     yield f"data: {response}\n\n"
 
         # Return a response that streams the data to the client
-        return Response(generate(), mimetype='text/event-stream')
+        
+        # streaming works locally but not on PythonAnywhere
+        # return Response(generate(), mimetype='text/event-stream')
+
+        # streaming that works on python anywhere 
+        response = Response(stream_with_context(generate()))
+        response.headers['X-Accel-Buffering'] = 'no'
+        return response
 
     else:
         print('Content-Type not supported!')

@@ -1,6 +1,5 @@
-from flask import Flask, request, Response, stream_with_context, jsonify
+from flask import Flask, request, Response
 import openai
-import flask
 from flask_cors import CORS
 import json
 

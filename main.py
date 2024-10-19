@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
     
 # only one route is used
-@app.route('/api/submit', methods=['POST'])
+@app.route('/', methods=['POST'])
 def chatWithBot():
 
     # we need to ensure the content type send is json
